@@ -8,9 +8,19 @@
 namespace rjm {
 
 class Screen {
+// Set SCREEN_WIDTH / SCREEN_HEIGHT
+// Set WINDOW_WIDTH / WINDOW_HEIGHT for displays
 public:
 	const static int SCREEN_WIDTH = 960;
 	const static int SCREEN_HEIGHT = 600;
+
+	// Display 1
+	const static int WINDOW_WIDTH_1 = 1440;
+	const static int WINDOW_HEIGHT_1 = 900;
+
+	// OPTIONAL Display 2
+	const static int WINDOW_WIDTH_2 = 1440;
+	const static int WINDOW_HEIGHT_2 = 900;
 
 private:
 	SDL_Window *m_window[2];
