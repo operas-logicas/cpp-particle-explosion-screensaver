@@ -3,7 +3,7 @@
 #ifndef PARTICLE_H_
 #define PARTICLE_H_
 
-#include <SDL2/SDL.h>
+#include <SDL.h>
 
 namespace rjm {
 

@@ -3,7 +3,7 @@
 #ifndef SCREEN_H_
 #define SCREEN_H_
 
-#include <SDL2/SDL.h>
+#include <SDL.h>
 
 namespace rjm {
 

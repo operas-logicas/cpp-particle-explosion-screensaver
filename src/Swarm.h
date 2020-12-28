@@ -3,7 +3,7 @@
 #ifndef SWARM_H_
 #define SWARM_H_
 
-#include <SDL2/SDL.h>
+#include <SDL.h>
 #include "Particle.h"
 
 namespace rjm {
